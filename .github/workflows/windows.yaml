@@ -5,7 +5,7 @@ name: Windows APP
 # https://blog.csdn.net/u012219045/article/details/114841287
 on:
   schedule:
-    - cron: '18 0-16 * * *'
+    - cron: '18 0-16/4 * * *'
   push:
     branches: [ main ]
 
